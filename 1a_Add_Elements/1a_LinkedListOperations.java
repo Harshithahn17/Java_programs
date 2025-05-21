@@ -4,7 +4,7 @@ package Add_elements;
 
 import java.util.*;
 
-public class LinkedListOperations {
+public class 1a_LinkedListOperations {
     public static void main(String[] args) {
         // 1. Adding elements
         LinkedList<String> fruits = new LinkedList<>();
