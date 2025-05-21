@@ -3,7 +3,7 @@ package Add_elements;
 
 import java.util.*;
 
-public class ArrayListOperation {
+public class 1a_ArrayListOperation {
     public static void main(String[] args) {
         // 1. Adding elements
         ArrayList<String> fruits = new ArrayList<>();
