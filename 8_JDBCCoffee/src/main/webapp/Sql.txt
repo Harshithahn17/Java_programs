@@ -1,0 +1,26 @@
+
+For Coffee Database name
+
+CREATE DATABASE IF NOT EXISTS test;
+
+USE test;
+
+CREATE TABLE IF NOT EXISTS coffee (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    coffee_name VARCHAR(100),
+    price DECIMAL(6,2)
+);
+
+
+
+For Employee Database name
+
+CREATE DATABASE IF NOT EXISTS Employee;
+
+USE Employee;
+
+CREATE TABLE IF NOT EXISTS Emp (
+    Emp_NO INT PRIMARY KEY,
+    Emp_Name VARCHAR(100),
+    BasicSalary DECIMAL(10,2)
+);
